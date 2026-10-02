@@ -1,0 +1,26 @@
+/* -- Sintaxe do CSS -- */
+/* seletor{
+    propriedade: valor;
+} */
+
+/* 
+p{
+
+   color: blue;
+}
+
+h1{
+
+    color: crimson;
+}
+
+h2{
+
+    color: darkslategray;
+}     
+*/
+
+p{
+    color: rgb(105, 24, 40);
+}
+

@@ -1,0 +1,15 @@
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: crimson;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+    color: orangered;
+}
+
+label{
+    font-size: 20px;
+    color:coral ;
+}
