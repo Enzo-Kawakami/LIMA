@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Obrigatorio</title>
+</head>
+<body>
+
+    <form>
+
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Inserir Nome" required>
+        <p></p>
+        
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" placeholder="Inserir Sobrenome" required>
+        <p></p>
+
+       <label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="Inserir E-mail" required>
+        <p></p>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" placeholder="Inserir Senha" required>
+        <p></p>
+        <label for="endereço">Endereço:</label>
+        <input type="text" name="endereço" placeholder="Inserir Endereço" required>
+        <p></p>
+        <label for="numero">Fone:</label>
+        <input type="number" name="numero" placeholder="Inserir Número Residencial" required>
+
+        <p>Gostaria de Receber Atualizações</p>
+        <label><input type="radio" name="confirmaçao" required>Sim</label>
+        <label><input type="radio" name="confirmaçao" required>Não</label>
+
+        <p>Se aceita os Termos de Cobdição</p>
+        <label><input type="checkbox" name="aceitar">Aceitar Termos :]</label>
+        <p>Termos de Direitos</p>
+        <label><input type="checkbox" name="aceitar">Aceitar Direitos :]</label>
+
+        <p></p>
+        <button type="submit">Enviar</button>
+
+
+    </form>
+    
+</body>
+</html>

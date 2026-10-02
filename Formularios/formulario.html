@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <!-- Estrutura do Formulario -->
+     <form>
+
+        <label for="nome">Nome: </label ><!-- Associação de texto com campos de entrada -->
+        <input type="text" name="nome" placeholder="Informe seu Nome" required><!-- Campo de entrada -->
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="Informe seu E-mail" required>
+
+        <label for="Fone">Fone:</label>
+        <input type="number" name="fone" placeholder="Inserir Número de telefone" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" placeholder="Informe sua senha" required>
+
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" required>
+
+        <p>Escolha sua cor preferida</p>
+        <label><input type="radio" name="cor" required>Azul Goiaba</label>
+        <label><input type="radio" name="cor" required>Rosa Pink</label>
+        <label><input type="radio" name="cor" required>Branco Escuro</label>
+
+        <p>Escolha suas frutas favortas :]</p>
+        <label ><input type="checkbox" name="frutas" >Banana Cobre Enferrujado</label>
+        <label ><input type="checkbox" name="frutas" >Uva Azul do Norte</label>
+        <label ><input type="checkbox" name="frutas" >Maçã Gala de Cavalo</label>
+        <label ><input type="checkbox" name="frutas" >Limão Azedo do Capeta</label>
+
+        <button type="submit">Enviar</button>
+
+     </form>
+    
+</body>
+</html>
