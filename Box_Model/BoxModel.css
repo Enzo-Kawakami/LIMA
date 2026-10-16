@@ -1,0 +1,26 @@
+/* button{
+    padding: 14px 24px;
+    color: white;
+    background-color: #ff3cac;
+    border: none;
+    border-radius: 10px;
+    /* border: 2px solid; */
+    /* margin: 100px 10px; */
+/* } */
+/* 
+button{
+    padding: 14px 24px;
+    color: white;
+    background-color: black;
+    border: 1.5px solid rgb(71, 71, 71);
+    border-radius: 10px;
+} */
+
+button{
+    padding: 14px 24px;
+    color: white;
+    background-color: #3c9aff;
+    border: 1px solid #0101f5;
+    border-radius: 7px;
+
+}
